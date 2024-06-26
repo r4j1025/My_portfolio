@@ -1,0 +1,22 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+a{
+    color: inherit; //inherit-take property of parent , here body is parent.
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
