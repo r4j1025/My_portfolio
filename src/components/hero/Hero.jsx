@@ -56,7 +56,7 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div variants={sliderVariants} initial="initial" animate="animate" className="slidingTextContainer">
-        patience and perseverance
+        Patience and Perseverance
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />
