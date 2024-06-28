@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Links from "./links/Links";
 import "./sidebar.scss";
 import ToggleButton from "./toggleButton/ToggleButton";
-//52
+
 const variants = {
   open: {
     clipPath: "circle(1200px at 50px 50px)",
