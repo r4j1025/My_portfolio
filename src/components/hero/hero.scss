@@ -8,7 +8,25 @@
         width: 50%;
         top: 0;
         right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
+        .img1{
+            border-radius: 50px;
+            //z-index: 1;
+            position: absolute;
+            height: 500px;
+            right: -30px;
+            
+        }
+        .img2{
+            right: 0;
+            position: absolute;
+            height: 450px;
+            //z-index: 2;
+           // border-radius: 60px;
+        }
     }
     .slidingTextContainer{
         position: absolute;
@@ -31,9 +49,10 @@
             justify-content: center;
             gap: 40px;
             h2{
-                font-size: 30px;
-                color: rebeccapurple;
-                letter-spacing: 8px;
+                font-size: 40px;
+                color: rgb(25, 2, 155);
+                text-shadow: #0c0c1d;
+                letter-spacing: 9px;
             }
             h1{
                 font-size: 70px;

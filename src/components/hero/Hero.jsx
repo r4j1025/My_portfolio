@@ -59,7 +59,8 @@ const Hero = () => {
         Patience and Perseverance
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img className="img1" src="/bg.png" alt="" />
+        <img className="img2" src="/b5.svg" alt="" />
       </div>
     </div>
   );
