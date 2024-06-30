@@ -1,0 +1,37 @@
+@import "../../app.scss";
+
+.cursor{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 998;
+  .scursor{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid rgb(7, 193, 250);
+      position: fixed;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .rcursor{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid rgb(7, 64, 250);
+        position: fixed;
+        z-index: 999;
+    }
+  }
+
+  @include mobile{
+    display: none;
+  }
+}

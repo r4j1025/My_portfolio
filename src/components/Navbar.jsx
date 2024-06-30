@@ -15,9 +15,9 @@ const Navbar = () => {
         transition={{duration:0.5}}
         >PUSHPARAJ</motion.span>
         <div className="social">
-          <a href="#"><img className="linkedin" src="/linkedin.png"/></a>
-          <a href="#"><img src="/instagram.png"/></a>
-          <a href="https://github.com/r4j1025"><img src="/github.png"/></a>
+          <a target="_blank" href="https://www.linkedin.com/in/pushparajln/"><img className="linkedin" src="/linkedin2.png"/></a>
+          <a target="_blank" href="https://www.instagram.com/rxj.ln/"><img src="/instagram.png"/></a>
+          <a target="_blank" href="https://github.com/r4j1025"><img src="/github.png"/></a>
         </div>
       </div>
     </div>
