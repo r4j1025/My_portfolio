@@ -13,8 +13,15 @@ const items=[
     },
     {
         id:2,
-        title:"Ragul Constructions",
+        title:"Integrity File Manager",
         img:"/p1.png",
+        url:"https://integrity-file-manager.up.railway.app/",
+        desc:"Integrity File Manager provides a secure, reliable, and collaborative solution for cloud-based file storage, ensuring integrity, transparency, and controlled access."
+    },
+    {
+        id:3,
+        title:"Ragul Constructions",
+        img:"/p3.png",
         url:"https://ragulconstructions.netlify.app/",
         desc:"a Reactjs based commercial website with modern UI and 3D elements."
     },
@@ -67,7 +74,7 @@ const Portfolio = () => {
           <motion.div style={{ scaleX:scaleX }} className="progressBar"></motion.div>
         </div>
         {items.map((item) => (
-          <Single item={item} key={item.id} />
+          <Single className="single" item={item} key={item.id} />
         ))}
       </div>
     );

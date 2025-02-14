@@ -136,15 +136,15 @@ const Skills = () => {
     <div className="skills">
     <Container id="skills">
       <Wrapper>
-        <motion.div className="t" initial={{opacity:0}} transition={{duration:1}} whileInView={{opacity:1}} variants ={textVariants}>My Skills</motion.div>
+        <motion.div className="t" initial={{opacity:0}} transition={{duration:1}} whileInView={{opacity:1}} variants ={textVariants}>Skills Summary</motion.div>
         <SkillsContainer className="skillc">
           {skills.map((skill) => (
             <motion.div className="s" initial={{opacity:0}} transition={{duration:1}} whileInView={{opacity:1}} variants ={textVariants}>
               <SkillTitle className="skillt">{skill.title}</SkillTitle>
               <SkillList className="skilll">
                 {skill.skills.map((item) => (
-                  <SkillItem key={item.title}>
-                    <SkillImage key={item.title} src={item.image}/>
+                  <SkillItem key={item.name}>
+                    <SkillImage key={item.image} src={item.image}/>
                     {item.name}
                   </SkillItem>
                 ))}

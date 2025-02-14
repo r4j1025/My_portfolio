@@ -25,6 +25,11 @@
       }
     }
   }
+  // .single{
+  //   @include mobile {
+  //     z-index: 99;
+  //   }
+  // }
 
   .container {
     display: flex;
@@ -33,6 +38,9 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    @include mobile {
+      position: absolute;
+    }
 
     .wrapper {
       max-width: 1366px;
@@ -45,7 +53,11 @@
 
       @include mobile {
         gap: 10px;
+        padding-top: 70px;
         flex-direction: column;
+      }
+      @media (max-height: 670px) {
+        padding-top: unset;
       }
 
       .imageContainer {
@@ -60,7 +72,7 @@
         img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
 
           @include mobile {
             object-fit: contain;

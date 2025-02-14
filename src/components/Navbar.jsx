@@ -13,7 +13,7 @@ const Navbar = () => {
         initial={{opacity:0,scale:0.5}}
         animate={{opacity:1,scale:1}}
         transition={{duration:0.5}}
-        >PUSHPARAJ</motion.span>
+        >Portfolio</motion.span>
         <div className="social">
           <a target="_blank" href="https://www.linkedin.com/in/pushparajln/"><img className="linkedin" src="/linkedin2.png"/></a>
           <a target="_blank" href="https://www.instagram.com/rxj.ln/"><img src="/instagram.png"/></a>

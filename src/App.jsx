@@ -5,7 +5,7 @@ import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
-import Portfolio from "./components/portfolio/portfolio";
+import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 const App = () => {
   return <div>
